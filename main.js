@@ -19,6 +19,11 @@ btn.addEventListener("touchstart", function (e) {
   openMouth();
 });
 
+btn.addEventListener("touchstart", function (e) {
+  e.preventDefault();
+  increment();
+});
+
 // The functions which will perform the cool stuff
 function openMouth() {
   popcat.src = openMouthImg;
