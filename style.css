@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  height: 95vh;
+  background-image: url(https://img.freepik.com/free-photo/white-watercolor-papar-texture-background-cover-card-design-overlay-aon-paint-art-background_1962-2191.jpg?w=2000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#popcat {
+  width: 400px;
+}
+
+#btn {
+  width: fit-content;
+  height: fit-content;
+  border: 0px;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn:focus {
+  outline: none;
+}
+
+#btn:active {
+  border: 3px solid darkgray;
+  color: darkgray;
+}
+
+@media only screen and (max-width: 480px) {
+  #popcat {
+    width: 200px;
+  }
+}
+
+h1 {
+  font-family: "mitr", sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  align-items: center;
+}
+
+h2 {
+  font-family: "mitr", sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  align-items: center;
+}
