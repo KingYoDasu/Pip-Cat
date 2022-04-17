@@ -2,7 +2,6 @@
 const popcat = document.querySelector("#popcat");
 const btn = document.querySelector("#btn");
 const span = document.querySelector("span");
-const embed = new Discord.RichEmbed()
 
 // The two images of the POP CAT
 const openMouthImg = "./images/pip.jpeg";
